@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+ body {
+    background: #000000 url() no-repeat center bottom 32px; 
+    
+    
+} 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.objectList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.objectList-items {
+    display: flex;
+    align-items: center;
+}
+.objectList-items:nth-child(2) {
+    margin: 0 6px;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.info {
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.info-box1{
+    display: flex;
+    align-self: center;
+    padding-left: 42px;
+}
+.info-title {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+}
+.info-text {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.info-mask { 
+    position: absolute;
+    top: 70px;
+    left: -39px;
+} 
+.info_mask-img {
+    position: absolute;
+    top: 110px;
+    left: -40px;
+}
+.info-box2{
+    display: flex;
+}
+.people {
+    position: absolute;
+    width: 400px; 
+    height: auto; 
+    left: 480px;
+    top: -30px;
+}
+
+.people img {
+    width: 100%; 
+    height: auto; 
+}
+.ellipse {
+    position: absolute;
+    top: 30px;
+    left: 440px;
+}
+.doll {
+    position: absolute;
+    top: 45px;
+    left: 455px;
+}
+.ramka {
+    position: absolute;
+    top: 120px;
+    width: 280px;
+    height: auto;
+    left: 970px;
+}
+.start {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 985px;
+}
+.ramka_img {
+    position: absolute;
+    top: 260px;
+    left: 380px;
+    width: 120px;
+}
+.points {
+    position: absolute;
+    top: 270px;
+    left: 390px;
+    width: 100px;
+}
+.head1 {
+    position: absolute;
+    bottom: 160px;
+    right: 220px;
+}
+.head2 {
+    position: absolute;
+    bottom: 170px;
+    right: 150px;
+    width: 80px;
+}
+.image {
+    position: absolute;
+    top: 400px;
+    left: 760px;
+}
+.play {
+    position: absolute;
+    top: 410px;
+    left: 1150px;
+}
+.start-text {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 425px;
+    left: 1025px;
+}
+.blurry {
+    position: absolute;
+    top: 480px;
+}
+.blurry_img {
+    position: absolute;
+    top: 480px;
+    left: 1178px;
+}
+.fixed-menu {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    color: #FFFFFFCC;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(45px);
+}
+.fixed-menu-text1 {
+    display: flex;
+    align-self: center;
+}
+.menu-text1-item {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu-text1-item:last-child {
+    margin-right: 0px;
+}
+.fixed-menu-text2 {
+    display: flex;
+    align-self: center;
+}
+.menu-text2-item {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu-text2-item:last-child {
+    display: flex;
+    align-self: center;
+    margin-right: 0px;
+    color: #FFB800;
+}
+.menu-icontext {
+    margin-left: 10px;
+}
+.start-button {
+    display: flex;
+    align-self: center;
+    color: #fff;
+}
+.start-buttontext {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 22px;
+}
